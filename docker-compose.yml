@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  shop.products:
+    image: shop.products
+    build:
+      context: ./Shop.Products
+      dockerfile: Dockerfile
