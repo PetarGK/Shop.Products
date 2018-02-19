@@ -3,8 +3,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - dotnet restore
-      - dotnet build
+      - dotnet restore Shop.Products/Shop.Products.csproj
+      - dotnet build Shop.Products/Shop.Products.csproj
 artifacts:
   files:
     - Shop.Products/bin/Debug/netcoreapp2.0/*
