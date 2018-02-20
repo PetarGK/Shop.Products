@@ -24,7 +24,7 @@ namespace Shop.Products.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "value 2";
         }
 
         // POST api/products
